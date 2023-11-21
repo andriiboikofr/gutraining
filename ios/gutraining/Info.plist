@@ -51,7 +51,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>ComicSans.ttf</string>
+		<string>ComicSansMS.ttf</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

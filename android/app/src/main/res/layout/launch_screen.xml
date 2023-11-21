@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Root layout for the splash screen -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/splashscreen_bg"> <!-- Set the background color to white or any other color -->
+
+    <!-- TextView for the 'Hello Bogdan' message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Bogdan"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:textColor="@color/text"/>
+
+    <!-- ImageView for the photo -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bogdan" /> <!-- Replace with your photo name -->
+
+    <!-- TextView for the 'Powered by Tõlinici' footer -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by Тбілісі"
+        android:layout_marginTop="16dp"
+        android:textSize="14sp"
+        android:textColor="@color/text"/>
+
+</LinearLayout>
