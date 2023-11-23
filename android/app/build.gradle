@@ -82,7 +82,7 @@ android {
         versionName "1.0"
     }
     signingConfigs {
-        release {
+           release {
             storeFile file('gutraining.keystore')
             storePassword 'Hades@!Ares'
             keyAlias 'gu-fintech_alias'
