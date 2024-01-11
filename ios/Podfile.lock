@@ -491,6 +491,11 @@ PODS:
     - FirebaseCoreExtension (= 10.19.0)
     - React-Core
     - RNFBApp
+  - RNNotifee (7.8.2):
+    - React-Core
+    - RNNotifee/NotifeeCore (= 7.8.2)
+  - RNNotifee/NotifeeCore (7.8.2):
+    - React-Core
   - RNScreens (3.27.0):
     - RCT-Folly (= 2021.07.22.00)
     - React-Core
@@ -547,6 +552,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
+  - "RNNotifee (from `../node_modules/@notifee/react-native`)"
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
@@ -654,6 +660,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/app"
   RNFBMessaging:
     :path: "../node_modules/@react-native-firebase/messaging"
+  RNNotifee:
+    :path: "../node_modules/@notifee/react-native"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   RNSVG:
@@ -718,12 +726,13 @@ SPEC CHECKSUMS:
   ReactCommon: cfe086d2e2ec9f2907c66666c856082608fba822
   RNFBApp: c21258de1485419a845efbba9c09ec946c89891d
   RNFBMessaging: e52a76a97ec5ff75e186c150e2bfab86c9e655d1
+  RNNotifee: 8e2d3df3f0e9ce8f5d1fe4c967431138190b6175
   RNScreens: 3e56c56bd35436215a56f48a753e30e8ce018a09
   RNSVG: 255767813dac22db1ec2062c8b7e7b856d4e5ae6
   RNVectorIcons: 72a70504e1b0aebcc2d3bbcdf65a75f5f77175f3
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: b76f1acfda8212aa16b7e26bcce3983230c82603
 
-PODFILE CHECKSUM: bafe6528e04d906535cd9c09b18b37f2ee649a79
+PODFILE CHECKSUM: 6601e767851f0c4abc34c0fc4700c582711a1f2d
 
 COCOAPODS: 1.14.3
