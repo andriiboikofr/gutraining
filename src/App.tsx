@@ -9,7 +9,7 @@ import {observer} from 'mobx-react-lite';
 // Create the stack navigators
 const App = observer(() => {
   useEffect(() => {
-    SplashScreen.hide(); // Hide the splash screen
+    SplashScreen.hide(); 
   }, []);
 
   return (
